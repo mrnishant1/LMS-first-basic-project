@@ -1,0 +1,82 @@
+.Login{
+    background-color: #34495e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 45vh;
+    height: 60%;
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+.Login span{
+    background-color: transparent;
+    font-size: xx-large;
+    font-family: cursive;
+    color: #69819a;
+}
+
+.name input{
+    background-color: transparent;
+    /* box-shadow: wheat ; */
+    /* border: 2px solid #69819a; */
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0) 0 5px 6px -4px;
+    font-size: large;  
+}
+.name ::placeholder{
+    box-shadow: rgb(44, 187, 154) 0 -25px 18px -14px;
+    
+    
+}
+
+.year input{
+    background-color: transparent;
+    font-size: large;
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0) 0 5px 6px -4px;
+    
+}
+.branch input{
+    background-color: transparent;
+    font-size: large;
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0) 0 5px 6px -4px;
+}
+.bookname input{
+    background-color: transparent;
+    font-size: large;
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0) 0 5px 6px -4px;
+}
+
+/* 
+.register{
+    font-size: xx-large;
+    color: #506376;
+} */
+
+/* CSS */
+.register{
+  background-color: #506376;
+  border-radius: 100px;
+  box-shadow: rgb(44, 187, 154) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: #93afca;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}

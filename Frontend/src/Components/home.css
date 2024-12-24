@@ -1,0 +1,54 @@
+
+  
+  .about-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: transparent;
+   
+    border-radius: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #4CAF50;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .highlight {
+    color: #ff6f61;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+  
+  .features ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .features ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .features ul li::before {
+    content: "✔";
+    color: #4CAF50;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .features strong {
+    color: #333;
+  }
+  

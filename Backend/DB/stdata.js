@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
+import url from "./imp.js";
 const Schema = mongoose.Schema;
-mongoose.connect('mongodb+srv://nishantkumaragra:NishantSingh@cluster0.yp92q.mongodb.net/LMS');
+mongoose.connect(url);
 const ObjectId = Schema.ObjectId;
 
 const students = new Schema({
